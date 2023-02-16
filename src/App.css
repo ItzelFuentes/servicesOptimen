@@ -1,0 +1,243 @@
+.App {
+  text-align: center;
+  font-family: 'Montserrat';
+}
+.App-header {
+background-color: #ffffff;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: right ;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+
+section {
+  color: black;
+  text-shadow: 3px 3px rgba(#4169E1);
+  height: 100vh;
+  font-family: Montserrat;
+  
+}
+
+.navBg{
+  background-color:  #4169E1;
+  text-shadow: black;
+  width: 100%;
+  height: auto;
+  color: rgb(255, 255, 255);
+  
+
+}
+
+
+.me-auto{
+  margin-left: 35px;
+
+}
+
+
+.redes{
+ margin-top: 5px;
+}
+
+.sb_footer1{
+  display: flex;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+  color:white;
+}
+
+.sb_footer2{
+  width: 30%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  color:white;
+}
+
+.footer1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  color:white;
+}
+
+.footer2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+}
+
+.footer3 {
+  width: 60%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+
+}
+
+
+.card-container {
+  display:flex;
+  justify-content: center;
+  position:center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  gap: .5rem;
+  
+
+}
+
+#card {
+  background-color: #ffffff;
+  width: 316px;
+  height: 275px;
+  margin: 10px;
+  text-align: center;
+  line-height: 22px;
+  font-size: 14px;
+  color: #000000;
+
+}
+
+
+/*
+.card1 {
+  background-color: #BBC9F5;
+  width: 310px;
+  height: 280px;
+  margin: 2px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 18px;
+  color: #ffffff;
+
+}*/
+
+
+
+
+
+/*MA-------------*/
+h1, p, h4{
+  color: black;
+  top: 10px;
+  font-family: Montserrat;
+  text-align: center;
+}
+
+div.prim{
+  top:200px;
+}
+
+div.primerText{
+  margin-top: 10px;
+}
+
+div.column1 {
+  top: 620px;
+  position:absolute;
+  left:50px;
+  width:355px;
+  background-color:#F2F4F7;
+  height:210px;
+  font-size: 19px;
+}
+
+div.column2 {
+  top: 620px;
+  position:absolute;
+  left:480px;
+  width:355px;
+  background-color:#F2F4F7;
+  height:210px;
+  font-size: 18px;
+}
+
+img.a2{
+  border-radius: 100%;
+  background-size: cover;
+  width:100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+div.column3{
+  top: 620px;
+  position:absolute;
+  left:900px;
+  width: 355px;
+  background-color:#F2F4F7;
+  height:210px;
+  font-size: 18px;
+}
+
+div.AE1{
+  position:absolute;
+  left:60px;
+  width:355px;
+  background-color:#F2F4F7;
+  font-size: 19px;
+}
+
+div.AE2{
+  position:absolute;
+  left:505px;
+  width:355px;
+  background-color:#F2F4F7;
+  font-size: 19px;
+}
+
+div.AE3{
+  position:absolute;
+  left:940px;
+  width: 355px;
+  background-color:#F2F4F7;
+  font-size: 19px;
+}
+
+#text{
+  margin-left: 5%;
+}
+
+#video{
+  width: 80vw;
+}
+
+
+/*Modificador de estilos de Innovation*/
+.innovation{
+  min-height: 0 auto;
+}
+.contenedor_innovation{
+  width: 98%;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 10px 50px;
+  background-color: #4169E1 ;
+  box-shadow: 0 8px 20px 3px rgb(150, 150, 150 / 20%);
+}
+
+.img-innovation{
+  height: 100%;
+  width: 35%;
+}
+
+.contenedor-info_innnovation{
+width: 100%;
+font-size: 18px;
+text-align: left;
+padding: 40px ;
+font-weight: 400;
+line-height: 1.5rem;
+}
+
+.nombre-empresa{
+font-size: 3rem;
+}
